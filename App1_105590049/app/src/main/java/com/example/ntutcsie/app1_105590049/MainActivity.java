@@ -31,7 +31,11 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View view) {
             int marks =Getint(et_score.getText().toString());
-            tv_grade.setText(gg.letterGrade(marks));
+            String Ans = gg.letterGrade(marks);
+            if(Ans != "grade = 'X'")
+                tv_grade.setText(Ans);
+            else
+                tv_grade.setText("Marks should in range 0 to 100");
 
         }
     };
