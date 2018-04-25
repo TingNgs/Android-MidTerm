@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.ntutcsie.app1_105590049.MainActivity">
+
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
@@ -24,6 +25,7 @@
             android:layout_alignParentTop="true"
             android:layout_toEndOf="@+id/textView"
             android:inputType="number"
+            android:hint="Input your score"
             android:layout_toRightOf="@+id/textView" />
 
         <Button
