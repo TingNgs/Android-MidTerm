@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">App2_105590049</string>
+    <string-array name="question">
+        <item>I think android programming is interesting</item>
+        <item>I think android programming is boring</item>
+        <item>I think android programming is home is easy</item>
+        <item>I think android programming is upload homework is difficult</item>
+        <item>I think android programming is is difficult</item>
+    </string-array>
+</resources>
